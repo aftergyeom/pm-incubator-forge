@@ -1,5 +1,8 @@
 import './App.css'
+import { VariableAndDataTypes } from './data_type/VariableAndDataType'
 import { CalculationExample } from './math_operation/CalculationExample'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+
 
 function App() {
 
@@ -7,6 +10,8 @@ function App() {
     <>
       <div>
         <CalculationExample/>
+        <VariableAndDataTypes/>
+        <LogicalOperationExample/>
       </div>
     </>
   )
