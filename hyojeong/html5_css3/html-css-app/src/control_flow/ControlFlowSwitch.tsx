@@ -1,4 +1,6 @@
-export const ControlFlowIf = () => {
+export const ControlFlowSwitch = () => {
+    // Math.random()의 경우 0 <= random 값 < 1
+    // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/random
     let grade = Math.floor(Math.random() * 5) + 1
     let gradeName
 
@@ -15,7 +17,7 @@ export const ControlFlowIf = () => {
 
     return (
         <div>
-            <h3>javascript 제어문 (if)</h3>
+            <h3>javascript 제어문 (Switch)</h3>
 
             <pre>{
             `
