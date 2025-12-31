@@ -10,6 +10,7 @@ for (let i = 3, j = 0; i < 16; i += 3, j++) {
         summation += loopResultArray[j]
     }
 
+    
 
 return(
     <div>
