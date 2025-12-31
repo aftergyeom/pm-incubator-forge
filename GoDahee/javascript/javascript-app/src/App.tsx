@@ -8,6 +8,7 @@ import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { ControlFlowFor } from './control_flow/ControlFlowFor'
 import { ControlFlowSummation } from './control_flow/ControlFlowSummation'
 import { ControlFlowSumExample } from './control_flow/ControlFlowSumExample'
+import { SecondProblem } from './assets/problem/SecondProblem'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <ControlFlowFor/>
         <ControlFlowSummation/>
         <ControlFlowSumExample/>
+        <SecondProblem/>
       </div>
     </>
   )
