@@ -4,6 +4,9 @@ import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { ControlFlowIf } from './control_flow/ControlFlowIf.tsx'
 
+import { FirstProblem } from './quiz/FirstProblem'
+import { ControlFlowSwitch } from './control_flow/ControlFlowIfSwitch'
+
 function App() {
  
 
@@ -18,6 +21,8 @@ function App() {
         <VariableAndDataType/>
         <LogicalOperationExample/>
         <ControlFlowIf/>
+        <FirstProblem/>
+        <ControlFlowSwitch/>
       </div>
     </>
   )
