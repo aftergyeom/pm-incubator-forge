@@ -1,10 +1,10 @@
 export const VariableAndDataType = () => {
     // 아래와 같은 일반 변수 선언을 해야함
-    let firstNumber = 10;
+    const firstNumber = 10;
     const secondConstant = "Hello";
-    var thirdBoolean = true;
-    let fourthNull = null;
-    let fifthUndefined = undefined;
+    const thirdBoolean = true;
+    const fourthNull = null;
+    const fifthUndefined = undefined;
 
     // 변수 작성법
     // 1. 맨 앞에 let, const, var 중 하나를 작성한다.
@@ -27,14 +27,14 @@ export const VariableAndDataType = () => {
     // Map 형식
     // 사물함 열쇠 <- key
     // 사물함 내용물 <- "value"
-    let sixthMap = { key: "value" };
+    const sixthMap = { key: "value" };
 
     // 배열
     // 1 ~ 1000까지 숫자를 적어야 할 때
     // first, second, third, fourth, fifth, sixth
     // 일일히 변수 이름을 지정하려고 하면 너무 피곤함.
     // 그러니 그냥 Array라는 배열을 하나 잡아놓고 필요한 값들을 설정
-    let seventhArray = [1, 2, 3];
+    const seventhArray = [1, 2, 3];
 
     return (
         <div>
