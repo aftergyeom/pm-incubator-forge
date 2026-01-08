@@ -15,6 +15,8 @@ import { SecondProblem } from './quiz/SecondProblem'
 
 import { MapExample } from "./map/MapExample.tsx"
 import { MapReduceExample } from './map/MapReduceExample.tsx'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
 
 function App() {
  
@@ -41,6 +43,9 @@ function App() {
 
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
+        
 
       </div>
     </>
